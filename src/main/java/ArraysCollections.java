@@ -1,9 +1,14 @@
-import java.sql.Array;
-import java.util.ArrayList;
-import java.util.Collections;
-import java.util.List;
+public class ArraysCollections {
 
-public class teste {
-    
+    public static void main(String[] args) {
+
+        int[] a = new int[5];
+
+        a[2] = 100;
+
+        System.out.println(a[4]);
+
+
+    }
 
 }
